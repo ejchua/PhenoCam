@@ -37,8 +37,5 @@ fit = fit.logistic(dat,par)
 ```{r, echo=TRUE}
 plot.phenocam(dat)
 lines(dat$date,pred.logistic(fit$par,dat$doy),col=2)
-<<<<<<< HEAD
 ```
-=======
-```
->>>>>>> 5ef1e4b9d07d721efbc3362b4b6647759d573134
+
