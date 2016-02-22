@@ -2,6 +2,7 @@
 title: "04_Master_Rmd"
 output: html_document
 ---
+```{r}
 ## Master script for phenology analysis
 
 ## Load required functions
@@ -29,3 +30,4 @@ fit = fit.logistic(dat,par)
 ## Visualize model and data
 plot.phenocam(dat)
 lines(dat$date,pred.logistic(fit$par,dat$doy),col=2)
+```
